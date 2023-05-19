@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+}
+/* Main container div css */
+
+.container{
+    height: 60vh;
+    width: 70vw;
+    background-color: lightcoral;
+    border: 10px solid lightgreen;
+    border-radius: 30px;
+    margin: 10% 0px 0px 10%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_8QYIi5wB-ReXS3IQMhZtYpefAtxaRTgx6outOyRNVQ&s);
+}
+
+/* css for buttons */
+
+button{
+    height: 50px;
+    width: 100px;
+    margin: 3% 4%;
+    margin-left: 10vw;
+    border: 2px solid red;
+    background-color: rgb(23, 114, 166);
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    border: 2px solid gold;
+    background-color: rgb(46, 42, 237);
+}
+
+/* css for other items like h1, span */
+h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 3rem;
+    font-family: Cambria;
+    color: rgb(15, 247, 69);
+}
+h2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2rem;
+    border: 3px dotted lavenderblush ;
+    border-radius: 20px;
+    color: rgb(11, 213, 249);
+}
+
+
+img{
+    height: 60px;
+    width: 60px;
+    margin: 10px 10px;
+}
+
+
+
